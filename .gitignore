@@ -1,3 +1,7 @@
 tests/
-gulpfile.js
-bower_components/
+twitteroauth/
+.DS_STORE
+.vagrant
+twitter.php
+scotchbox.php
+README.md
