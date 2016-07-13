@@ -4,6 +4,10 @@ html, body {
   font-family: Arial;
   background-color: white; }
 
+h1 {
+  color: #FF4772;
+  font-family: Lobster; }
+
 nav a.navbar-brand {
   color: #FF4772 !important; }
 

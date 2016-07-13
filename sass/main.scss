@@ -8,6 +8,12 @@ html, body {
 	background-color: white;
 }
 
+h1 {
+	color: $primary-color;
+	font-family: Lobster;
+	
+}
+
 nav {
 	a.navbar-brand {
 	color: $primary-color !important;

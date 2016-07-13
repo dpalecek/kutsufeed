@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="myApp" ng-controller="appCtrl">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -13,13 +13,17 @@
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
         <script type="text/javascript" src="bower_components/jso/build/jso.js"></script>
+        <script src="bower_components/angular/angular.min.js" type="text/javascript"></script>
+        <!-- Favicons -->
+        <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="http://scotch.io/favicon.ico">
+
 
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/extra.css">
     </head>
     <body>
-        <nav class="navbar-inverse" role="navigation" ng-controller="navCtrl">
-            <div class="container-fluid">
+        <nav class="navbar-inverse" role="navigation">
+            <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navLinks" aria-expanded="false">
                         <span class="sr-only">Toggle Navigation</span>
@@ -34,14 +38,19 @@
 
         <div class="main container">
             <div class="row">
-                <div class="col-md-7">
-                    <p>Hello world! This is the test page for a feed page.</p>
+                <div class="col-md-8">
+                    <h1>A Guide to Copping New Releases</h1>
+                    <h6>As posted in <a href="https://www.reddit.com/r/Sneakers/comments/x1ttw/guide_tips_on_copping_a_new_release/">reddit</a></h6>
+                    <hr />
+                    <a class="twitter-timeline" data-chrome="noheader nofooter" data-lang="en" data-link-color="#E81C4F" href="https://twitter.com/GoDiegoGooooo/lists/kutsu">A Twitter List by GoDiegoGooooo</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
-                <div class="aside col-md-5">
+                <div class="aside col-md-4">
                     <h2>Tweets by <a href="https://twitter.com/adidasalerts">@adidasalerts</a></h2>
-                    <p>That this paragraph is just here to fill up more space?</p>
+                    <a class="twitter-timeline" data-chrome="noheader nofooter" data-link-color="#E81C4F" data-show-replies="true" data-lang="en" href="https://twitter.com/adidasalerts"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     <h2>Tweets by <a href="https://twitter.com/swooshsupply">@swooshsupply</a></h2>
-                    <p class="warning"><span>Warning!</span>These are only some of the recents tweets by these users. For accurate tweets please visit their respective site.</p>
+                    <a class="twitter-timeline" data-chrome="noheader nofooter" data-link-color="#E81C4F" data-show-replies="true" data-lang="en" href="https://twitter.com/swooshsupply"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <h2>Tweets by <a href="https://twitter.com/KicksDeals">@KicksDeals</a></h2>
+                    <a class="twitter-timeline" data-chrome="noheader nofooter" data-link-color="#E81C4F" data-show-replies="true" data-lang="en" href="https://twitter.com/KicksDeals"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
         </div>
