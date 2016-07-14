@@ -1,10 +1,19 @@
 $primary-color: #FF4772; 
 $seconddary-color: #FF4661;
 
+.black {
+	color: rgb(31,31,31);
+}
+
+.yellowtail {
+	font-family: Yellowtail;
+}
+
+
 html, body {
 	margin: 0;
 	padding: 0;
-	font-family: Arial;
+	font-family: "Open Sans Condensed";
 	background-color: white;
 }
 
@@ -15,14 +24,47 @@ h1 {
 }
 
 nav {
+	#shoe-bar {
+
+		border-bottom: solid 1px;
+		border-top: solid 1px;
+		
+		a {
+			padding: 2px 0;
+		}
+
+		ul > li {
+			padding: 0 4px;
+		}
+
+		.brand-links {
+			img, a {
+				max-width: 100%;
+				max-height: 26px;
+			}
+		}
+	}
+	color: rgb(31,31,31) !important;
+	
 	a.navbar-brand {
-	color: $primary-color !important;
+	font-size: 18px;
+	font-family: "Lobster"
+	}
+
+	a {
+		color: rgb(31,31,31) !important;
+	}
+
+	.kicks-title {
+		font-size:  25px;
+		font-variant-caps: all-small-caps;
 	}
 }
 
 div.main {
 	p {
-		padding: 1em;
+		font-family: "Oswald";
+		font-weight: 300;
 	}
 
 	.aside {

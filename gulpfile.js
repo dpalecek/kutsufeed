@@ -10,14 +10,11 @@ var reload = browserSync.reload;
 gulp.task('browser-sync', function() {
 	//Initialize browsersync
 	browserSync.init({
-		//Browsersync with a PHP server
-		proxy: "localhost:9000",
-		notify: false,
-		port: 9000
+		server: "./"
 	});
 
 	gulp.watch("./sass/**/*.scss", ['sass'])
-	gulp.watch("./**/*.php").on("change", reload);
+	gulp.watch("./**/*.html").on("change", reload);
 });
 
 // Compile sass into CSS & auto-inject into browsers

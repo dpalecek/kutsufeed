@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>KutsuFeed </title>
+        <title>Feed:Kicks </title>
         <meta name="description" content="New Shoes Feed.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,16 +14,13 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
         <script type="text/javascript" src="bower_components/jso/build/jso.js"></script>
         <script src="bower_components/angular/angular.min.js" type="text/javascript"></script>
-        <!-- Favicons -->
-        <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="http://scotch.io/favicon.ico">
-
 
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/extra.css">
     </head>
     <body>
-        <nav class="navbar-inverse" role="navigation">
-            <div class="container">
+        <nav role="navigation">
+            <div class="container top">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navLinks" aria-expanded="false">
                         <span class="sr-only">Toggle Navigation</span>
@@ -31,26 +28,51 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#/">Feed:靴</a>    
+                    <a class="navbar-brand black" href="#/">Feed: <span class="yellowtail kicks-title">Kicks</span></a> 
                 </div>
-            </div>            
+
+                <div class="collapse navbar-collapse" id="navLinks">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://footlocker.com" target="_blank">FOOTLOCKER</a></li>
+                        <li><a href="http://www.eastbay.com/" target="_blank">EASTBAY</a></li>
+                        <li><a href="https://nike.com" target="_blank">NIKE</a></li>
+                        <li><a href="http://www.adidas.com/us/" target="_blank">ADIDAS</a></li>
+                        <li><a href="http://www.finishline.com/">FINISHLINE</a></li>
+                    </ul>   
+                </div>
+            </div>           
+        </nav>
+        <nav>
+            <div id="shoe-bar" class="container">
+                <ul class="navbar-left navbar-nav nav">
+                    <li><a href="#nmd">NMD</a></li>
+                    <li><a href="#flyknits">FLYKNITS</a></li>
+                </ul>
+
+                <ul class="navbar-right navbar-nav nav brand-links">
+                    <li><a href="#adidas"><img src="http://plainicon.com/dboard/userprod/2801_745af/prod_thumb/plainicon.com-42201-256px.png"></a></li>
+                    <li><a href="#nike"><img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/nike-128.png"></a></li>
+                </ul>
+            </div>
         </nav>
 
         <div class="main container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 guide">
                     <h1>A Guide to Copping New Releases</h1>
                     <h6>As posted in <a href="https://www.reddit.com/r/Sneakers/comments/x1ttw/guide_tips_on_copping_a_new_release/">reddit</a></h6>
                     <hr />
+                    <p>For online, You could go straight to the supplier such as <strong>Nike</strong>, <strong>Adidas</strong>, <strong>Reebok</strong>, etc. Since they are official, they will be the most prepared for the release. Other retail sites that are not as big will carry them, <strong>but</strong> are more prone to going down. They can't handle that amount of traffic.</p>
+                    <p>Didn't get lucky the first time? Keep checking sites for restocks. Restocks happen mainly when people ordered the wrong size or had no luck in the reselling market so they return the sneakers. It will never happen for the really big releases but I recently got lucky with a restock on the Nike More Uptempo Olympics. Don't give up!</p>
                     <a class="twitter-timeline" data-chrome="noheader nofooter" data-lang="en" data-link-color="#E81C4F" href="https://twitter.com/GoDiegoGooooo/lists/kutsu">A Twitter List by GoDiegoGooooo</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
-                <div class="aside col-md-4">
+                <div class="aside col-md-2" id="adidas">
                     <h2>Tweets by <a href="https://twitter.com/adidasalerts">@adidasalerts</a></h2>
-                    <a class="twitter-timeline" data-chrome="noheader nofooter" data-link-color="#E81C4F" data-show-replies="true" data-lang="en" href="https://twitter.com/adidasalerts"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <a class="twitter-timeline" data-chrome="noheader nofooter" data-link-color="#E81C4F" data-show-replies="true" data-lang="en" href="https://twitter.com/adidasalerts"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-
+                </div>
+                <div class="aside col-md-2" id="nike">
                     <h2>Tweets by <a href="https://twitter.com/swooshsupply">@swooshsupply</a></h2>
                     <a class="twitter-timeline" data-chrome="noheader nofooter" data-link-color="#E81C4F" data-show-replies="true" data-lang="en" href="https://twitter.com/swooshsupply"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    <h2>Tweets by <a href="https://twitter.com/KicksDeals">@KicksDeals</a></h2>
-                    <a class="twitter-timeline" data-chrome="noheader nofooter" data-link-color="#E81C4F" data-show-replies="true" data-lang="en" href="https://twitter.com/KicksDeals"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
         </div>
